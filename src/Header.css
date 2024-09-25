@@ -2,16 +2,18 @@
     color: white;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
     height: 50px;
     width: 100%;
     margin-top: 3px;
+    width: 100%;
 }
 
 /* search box */
 .Header input {
     border: 1px solid rgb(49, 49, 49);
+    color: white;
     background-color: black;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
@@ -20,7 +22,7 @@
 }
 .Header input:focus {
     outline: none !important;
-    border: 1px solid blue;
+    border: 1px solid rgb(0, 238, 255);
     /* box-shadow: 0 0 10px #719ECE; */
 }
 
@@ -55,6 +57,93 @@
     height: 30px;
     margin-left: 10px;
 }
+.mic-button:hover {
+    background-color: rgb(69, 69, 69);
+    cursor: pointer;
+}
+
 .mic-button div img {
     width: 10px;
+}
+
+/* hamburger button */
+.hamburger-button {
+    background-color: transparent;
+    border: 0;
+    border-radius: 50px;
+    width: 40px;
+    height: 40px;
+}
+.hamburger-button:hover {
+    background-color: rgb(69, 69, 69);
+    cursor: pointer;
+}
+
+.hamburger-button div img{
+    width: 20px;
+
+}
+
+/* camera button */
+.camera-button {
+    background-color: transparent;
+    border: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+}
+.camera-button:hover {
+    background-color: rgb(69, 69, 69);
+    cursor: pointer;
+}
+
+.camera-button div img {
+    width: 30px;
+    margin-bottom: 3px;
+}
+
+/* bell button */
+.bell-button {
+    background-color: transparent;
+    border: 0;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    border-radius: 50px;
+}
+.bell-button:hover {
+    background-color: rgb(69, 69, 69);
+    cursor: pointer;
+}
+
+.bell-button div img {
+    width: 14px;
+}
+
+/* hamburger and logo */
+.hamburger-and-logo {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.hamburger-and-logo img {
+    width: 30px;
+}
+.hamburger-and-logo span {
+    margin-left: 5px;
+}
+
+/* pfp button */
+.pfp-button {
+    background-color: transparent;
+    border: 0;
+    width: 30px;
+    height: 30px;
+    margin-left: 5px;
+    border-radius: 50px;
+}
+.pfp-button:hover {
+    background-color: rgb(69, 69, 69);
+    cursor: pointer;
 }
