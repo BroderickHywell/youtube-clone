@@ -7,16 +7,16 @@
     height: 50px;
     width: 100%;
     margin-top: 3px;
-    background-color: brown;
 }
 
+/* search box */
 .Header input {
     border: 1px solid rgb(49, 49, 49);
     background-color: black;
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
     width: 450px;
-    height: 36px;
+    height: 32px;
 }
 .Header input:focus {
     outline: none !important;
@@ -24,6 +24,7 @@
     /* box-shadow: 0 0 10px #719ECE; */
 }
 
+/* search button */
 .search-button {
     height: 35px;
     border-top-right-radius: 15px;
@@ -34,12 +35,26 @@
 }
 .search-button div {
     width: 18px;
-    height: 36px;
+    height: 25px;
     display: flex;
-    align-items: center;
     flex-direction: row;
+    justify-content: center;
 }
 .search-button div img {
+    margin-left: 20px;
     width: 18px;
     height: 18px;
+}
+
+/* mic button */
+.mic-button {
+    background-color: rgb(49, 49, 49);
+    border: 0;
+    border-radius: 50px;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+}
+.mic-button div img {
+    width: 10px;
 }
