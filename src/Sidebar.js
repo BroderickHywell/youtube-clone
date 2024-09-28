@@ -5,16 +5,16 @@ function Sidebar(){
     return (
         <div className="sidebar">
             <div><img src={tempicon}/>home</div>
-            <div>Shorts</div>
-            <div>Subscriptions</div>
+            <div><img src={tempicon}/>Shorts</div>
+            <div><img src={tempicon}/>Subscriptions</div>
             <hr />
-            <div>You</div>
-            <div>Your channel</div>
-            <div>History</div>
-            <div>Playlists</div>
-            <div>Your videos</div>
-            <div>Watch later</div>
-            <div>Liked videos</div>
+            <div>You <img src={tempicon}/></div>
+            <div><img src={tempicon}/>Your channel</div>
+            <div><img src={tempicon}/>History</div>
+            <div><img src={tempicon}/>Playlists</div>
+            <div><img src={tempicon}/>Your videos</div>
+            <div><img src={tempicon}/>Watch later</div>
+            <div><img src={tempicon}/>Liked videos</div>
             <hr />
             <div>Subscriptions</div>
         </div>
