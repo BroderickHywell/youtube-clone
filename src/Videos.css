@@ -9,7 +9,12 @@ div {
 .video {
     display: flex;
     flex-direction: column;
+    margin-left: 15px;
 }
+.video:hover {
+    cursor: pointer;
+}
+
 .thumbnail {
     width: 400px;
     border-radius: 20px;
@@ -22,7 +27,7 @@ div {
 .video-desc {
     display: flex;
     flex-direction: column;
-    background-color: blue;
+    margin-left: 10px;
 }
 
 .video-data {
