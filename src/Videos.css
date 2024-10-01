@@ -1,0 +1,31 @@
+div {
+    color: white;
+}
+
+.Videos {
+    display: flex;
+}
+
+.video {
+    display: flex;
+    flex-direction: column;
+}
+.thumbnail {
+    width: 400px;
+    border-radius: 20px;
+}
+
+.video-pfp-icon {
+    width: 50px;
+}
+
+.video-desc {
+    display: flex;
+    flex-direction: column;
+    background-color: blue;
+}
+
+.video-data {
+    display: flex;
+    flex-direction: row;
+}

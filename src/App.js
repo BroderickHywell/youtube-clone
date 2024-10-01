@@ -2,6 +2,7 @@ import './App.css'
 import Header from './Header'
 import Sidebar from './Sidebar'
 import Categories from './Categories'
+import Videos from './Videos'
 
 function App() {
   return (
@@ -9,7 +10,10 @@ function App() {
       <Header />
       <div className='main-content'>
         <Sidebar />
-        <Categories />
+        <div className='categories-videos'>
+          <Categories />
+          <Videos />
+        </div>
       </div>
     </div>
   )
