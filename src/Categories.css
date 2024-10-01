@@ -1,0 +1,12 @@
+.Categories {
+    color: white;
+    background-color: blue;
+    height: 50px;
+}
+
+.Categories span {
+    background-color: rgb(69, 69, 69);
+    border-radius: 10px;
+    padding: 8px;
+    margin-left: 20px;
+}
