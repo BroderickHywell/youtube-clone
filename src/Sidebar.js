@@ -8,7 +8,7 @@ function Sidebar(){
             <div><img src={tempicon}/>Shorts</div>
             <div><img src={tempicon}/>Subscriptions</div>
             <hr />
-            <div>You <img src={tempicon}/></div>
+            <div>You</div>
             <div><img src={tempicon}/>Your channel</div>
             <div><img src={tempicon}/>History</div>
             <div><img src={tempicon}/>Playlists</div>
