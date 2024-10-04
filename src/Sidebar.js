@@ -17,6 +17,9 @@ function Sidebar(){
             <div><img src={tempicon}/>Liked videos</div>
             <hr />
             <div>Subscriptions</div>
+            <div><img src={tempicon}/>channel</div>
+            <div><img src={tempicon}/>channel</div>
+            <div><img src={tempicon}/>channel</div>
         </div>
     )
 }
