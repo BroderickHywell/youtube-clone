@@ -11,20 +11,20 @@ function Header() {
   return (
     <div className="Header">
         <form className='hamburger-and-logo'>
-          <button className='hamburger-button'><div><img src={hamburgerIcon}/></div></button>
-          <img src={youtubeIcon}/>
+          <button className='hamburger-button'><div><img src={hamburgerIcon} alt='hamburger icon'/></div></button>
+          <img src={youtubeIcon} alt='youtube icon'/>
           <span>YouTube</span>
         </form>
       <form>
         <input type='text' placeholder='Search'/>
-        <button className='search-button'><div><img className='search-icon' src={searchIcon}/></div></button>
-        <button className='mic-button'><div><img src={micIcon}/></div></button>
+        <button className='search-button'><div><img className='search-icon' src={searchIcon} alt='search icon'/></div></button>
+        <button className='mic-button'><div><img src={micIcon} alt='mic icon'/></div></button>
       </form>
 
       <form>
-        <button className='camera-button'><div><img src={cameraIcon}/></div></button>
-        <button className='bell-button'><div><img src={bellIcon}/></div></button>
-        <button className='pfp-button'><div><img src={pfpIcon}/></div></button>
+        <button className='camera-button'><div><img src={cameraIcon} alt='camera icon'/></div></button>
+        <button className='bell-button'><div><img src={bellIcon} alt='bell icon'/></div></button>
+        <button className='pfp-button'><div><img src={pfpIcon} alt='pfp icon'/></div></button>
       </form>
     </div>
   )
