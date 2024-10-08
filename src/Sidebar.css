@@ -4,6 +4,7 @@
     height: 100%;
 }
 .sidebar div {
+    border-radius: 20px;
     display: flex;
     margin-bottom: 15px;
     margin-left: 20px;
@@ -15,6 +16,7 @@
 }
 .sidebar div:hover {
     background-color: rgb(69,69,69);
+    cursor: pointer;
 }
 
  hr {
