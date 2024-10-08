@@ -87,6 +87,13 @@
 
 }
 
+.youtube-icon-text:hover {
+    cursor: pointer;
+}
+.youtube-icon-text {
+    font-size: 25px;
+}
+
 /* camera button */
 .camera-button {
     background-color: transparent;

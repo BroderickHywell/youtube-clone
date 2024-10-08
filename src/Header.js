@@ -12,8 +12,10 @@ function Header() {
     <div className="Header">
         <form className='hamburger-and-logo'>
           <button className='hamburger-button'><div><img src={hamburgerIcon} alt='hamburger icon'/></div></button>
-          <img src={youtubeIcon} alt='youtube icon'/>
-          <span>YouTube</span>
+          <div className='youtube-icon-text'>
+            <img src={youtubeIcon} alt='youtube icon'/>
+            <span>YouTube</span>
+          </div>
         </form>
       <form>
         <input type='text' placeholder='Search'/>
