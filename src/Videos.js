@@ -11,7 +11,7 @@ function Videos(){
                 <div className='video-data'>
                     <img src={pewdiepieIcon} alt='pfp icon' className='video-pfp-icon'/>
                     <div className='video-desc'>
-                        <span>Making Cake</span>
+                        <span className='title-span'>Making Cake</span>
                         <span>pewdiepie</span>
                         <span>10t views - 5 days ago</span>
                     </div>
@@ -22,7 +22,7 @@ function Videos(){
                 <div className='video-data'>
                     <img src={pewdiepieIcon} alt='pfp icon' className='video-pfp-icon'/>
                     <div className='video-desc'>
-                        <span>CraftMine</span>
+                        <span className='title-span'>CraftMine</span>
                         <span>pewdiepie</span>
                         <span>49t views - 600 decades ago</span>
                     </div>

@@ -6,6 +6,13 @@ div {
     display: flex;
 }
 
+span {
+    color: rgb(99, 99, 99);
+}
+.title-span {
+    color: white;
+}
+
 .video {
     display: flex;
     flex-direction: column;
@@ -29,10 +36,12 @@ div {
 .video-desc {
     display: flex;
     flex-direction: column;
+    align-items: start;
     margin-left: 10px;
 }
 
 .video-data {
+    margin-top: 10px;
     display: flex;
     flex-direction: row;
 }
