@@ -47,6 +47,9 @@
     width: 18px;
     height: 18px;
 }
+.search-button:hover {
+    cursor: pointer;
+}
 
 /* mic button */
 .mic-button {
