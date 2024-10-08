@@ -1,30 +1,30 @@
 import './Videos.css'
-import thumbnail from './video thumbnails/Screenshot 2022-03-09 165859.png'
-import thumbnail2 from './video thumbnails/Screenshot 2022-03-08 143750.png'
-import pfpIcon from './icons/pfp-icon.svg'
+import pewdiepieVideo from './video thumbnails/pewdiepie-video.png'
+import pewdiepieVideo2 from './video thumbnails/pewdiepie-video2.png'
+import pewdiepieIcon from './icons/pewdiepie.jpg'
 
 function Videos(){
     return (
         <div className='Videos'>
             <div className='video'>
-                <img src={thumbnail} alt='video thumbnail' className='thumbnail'/>
+                <img src={pewdiepieVideo} alt='video thumbnail' className='thumbnail'/>
                 <div className='video-data'>
-                    <img src={pfpIcon} alt='pfp icon' className='video-pfp-icon'/>
+                    <img src={pewdiepieIcon} alt='pfp icon' className='video-pfp-icon'/>
                     <div className='video-desc'>
-                        <span>video title</span>
-                        <span>creator</span>
-                        <span>views-age</span>
+                        <span>Making Cake</span>
+                        <span>pewdiepie</span>
+                        <span>10t views - 5 days ago</span>
                     </div>
                 </div>
             </div>
             <div className='video'>
-                <img src={thumbnail2} alt='video thumbnail' className='thumbnail'/>
+                <img src={pewdiepieVideo2} alt='video thumbnail' className='thumbnail'/>
                 <div className='video-data'>
-                    <img src={pfpIcon} alt='pfp icon' className='video-pfp-icon'/>
+                    <img src={pewdiepieIcon} alt='pfp icon' className='video-pfp-icon'/>
                     <div className='video-desc'>
-                        <span>video title</span>
-                        <span>creator</span>
-                        <span>views-age</span>
+                        <span>CraftMine</span>
+                        <span>pewdiepie</span>
+                        <span>49t views - 600 decades ago</span>
                     </div>
                 </div>
             </div>
